@@ -13,7 +13,7 @@ Duration : **7 Hours**
 Explored `CSS flexbox` ,get command over different flexbox properties  of container and items  and also get to  learn understanding about how to  optimize your code. 
 
 ## Deployed Link
- [click here to see deployed version]( https://product-design-landing-page-link.netlify.app/"Click to Visit Link") 
+ [click here to see deployed version]( https://product-design-landing-page-link.netlify.app/ "Click to Visit Link") 
 
 
 ## Screenshots
