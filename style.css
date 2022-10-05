@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    color: #ffffff;
+    font-family: "Poppins","sans-serif";
+
+}
+body{
+ 
+    background-color: #000000e8;
+}
+.logo{
+    height: 40px;
+    position: relative;
+    right: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 15px; 
+    margin-top: 30px;
+}
+.list{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+.fa-sort-down{
+    margin-left: 10px;
+    font-size: 20px;
+    position: relative;
+    bottom: 4px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row; 
+}
+.large-img{
+    height: 500px;
+    position: relative;
+    left: 200px;
+
+}
+.bannner-content{
+    width: 30%;
+    position: relative;
+    left: 200px;
+    top: 100px;
+
+}
+.banner-content-heading h1{
+   font-size: 40px;
+   word-spacing: 10px;  
+}
+.banner-content-heading h3{ 
+    position: relative;
+    top: 40px;
+    color: #FF3343; 
+}
+.banner-content-heading p{
+    font-size: 12px; 
+    margin-bottom: 30px;  
+}
+.about-me{
+    background-color:#FF3343 ;
+    font-size: 20px;
+    padding: 10px 30px ; 
+}
+
+
+
+.left-bg{
+    background-color: #b9b8b80c;
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    margin-top: 40px;
+    
+}
+.service{ 
+    background-color: #ffffff2c;
+    width:15%; 
+    margin: 10px;
+    padding: 30px 50px;
+}
+.service-img{
+    height: 50px;
+}
+.know-more{
+     color: #FF3343;
+}
+
+.fa-arrow-right{
+    color: #FF3343;
+}
+
+.service-body p{
+    font-size: 12px; 
+    width: 80%;
+}
+
+.active-service{
+background-color: #FF3343;
+color: #ffffff;
+}
+
+
+
+
+
+
+.status{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw; 
+    margin-top: 30px;
+}
+
+.left-status{ 
+    text-align: center;
+    position: relative;
+    top: 60px;
+    left:150px;
+}
+.left-status h1{ 
+    font-size: 100px;
+    color: #FF3343;
+}
+.left-status h3{    
+    position: relative;
+    bottom: 30px;
+}
+
+.right-status{ 
+    display: flex;  
+    flex-wrap: wrap; 
+    width: 52%;
+    position: relative; 
+    right: 15px;
+}
+.status-card{
+    width: 41%; 
+    text-align: center;
+    margin: 20px;
+    background-color: #ffffff10;
+}
+.status-card h1{
+    color: #FF3343;
+    font-size: 45px;
+}
+
+
+
+.projects-heading-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 120px;
+}
+.view-all,.contact-btn{
+    background-color: #FF3343;
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+}
+
+
+.project-cards{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 77%;
+    position: relative;
+    left: 165px; 
+}
+
+
+.project{
+    width: 45%;    
+    padding: 0px 23px;
+}
+.img-cont{ 
+    background-color: #ffffff10;
+     padding: 40px 20px;
+     /* width: 80%; */
+}
+.img-cont img{
+    width: 350px; 
+    position: relative; 
+    left: 25px;
+
+}
+
+.project-heading{
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+.contact-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 100px; 
+    background-color: #ffffff10;
+    padding: 60px  0px;
+    width: 75%;
+    position: relative;
+    left: 90px;
+}
+.contact-left h2{ 
+  font-size: 40px;
+  word-spacing: 2px;
+}
+.contact-left p{ 
+  font-size: 13px; 
+}
+
+.list-2{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.list-2-item{
+    padding: 40px 5px;
+   font-size: 12px; 
+
+}
+
+footer{
+    background-color: #ffffff10;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.social-media{
+    position: relative;
+    right: 300px;
+}
+.social-media img{
+    padding: 10px;
+}
+.logo{
+    position: relative;
+    right: 100px;
+}
