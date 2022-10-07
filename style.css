@@ -5,17 +5,17 @@
     padding: 0;
     outline: 0;
     color: #ffffff;
-    font-family: "Poppins","sans-serif";
-
+    font-family: "Poppins","sans-serif"; 
 }
 body{
  
     background-color: #000000e8;
 }
 .logo{
-    height: 40px;
-    position: relative;
-    right: 0px;
+    height: 40px; 
+}
+.fa-bars{
+    display: none; 
 }
 nav{
     display: flex;
@@ -26,7 +26,7 @@ nav{
 }
 .list{
     display: flex;
-    width: 40%;
+    width: 50%;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
@@ -41,18 +41,31 @@ nav{
 .banner{
     display: flex;
     flex-direction: row; 
+    justify-content: center;
+    gap: 40px;
+    align-items: cnter;
+}
+.hero-img-cont{
+   height: 100%;
+   width: 50%;
 }
 .large-img{
-    height: 500px;
-    position: relative;
-    left: 200px;
+    height: 100%;
+    width: 100%;
+    /* position: relative;
+    left: 200px; */
 
 }
 .bannner-content{
+     display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 20px;
     width: 30%;
-    position: relative;
+    /* position: relative;
     left: 200px;
-    top: 100px;
+    top: 100px; */
 
 }
 .banner-content-heading h1{
@@ -65,8 +78,7 @@ nav{
     color: #FF3343; 
 }
 .banner-content-heading p{
-    font-size: 12px; 
-    margin-bottom: 30px;  
+    font-size: 12px;  
 }
 .about-me{
     background-color:#FF3343 ;
@@ -129,16 +141,16 @@ color: #ffffff;
 .status{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 100vw; 
+    justify-content:  center; 
+    align-items: center;
+    gap: 30px;
     margin-top: 30px;
 }
 
-.left-status{ 
+.left-status,.right-status{ 
     text-align: center;
-    position: relative;
-    top: 60px;
-    left:150px;
+    position: relative; 
+    left:5%;
 }
 .left-status h1{ 
     font-size: 100px;
@@ -151,16 +163,18 @@ color: #ffffff;
 
 .right-status{ 
     display: flex;  
-    flex-wrap: wrap; 
-    width: 52%;
-    position: relative; 
-    right: 15px;
+    flex-wrap: wrap;  
+    width: 60%;
+    /* position: relative; 
+    right: 15px; */
 }
 .status-card{
-    width: 41%; 
+    width: 35%; 
     text-align: center;
     margin: 20px;
     background-color: #ffffff10;
+    position: relative;
+    left: 10%;
 }
 .status-card h1{
     color: #FF3343;
@@ -173,7 +187,7 @@ color: #ffffff;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 120px;
+    padding: 20px 30px;
 }
 .view-all,.contact-btn{
     background-color: #FF3343;
@@ -205,9 +219,9 @@ color: #ffffff;
      /* width: 80%; */
 }
 .img-cont img{
-    width: 350px; 
-    position: relative; 
-    left: 25px;
+    width: 100% ; 
+    /* position: relative; 
+    left: 25px; */
 
 }
 
@@ -271,4 +285,94 @@ footer{
 .logo{
     position: relative;
     right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:950px){
+    .list{
+        display: none;
+    }   
+    .fa-bars{
+        display: block;
+        font-size: 30px;
+        color: #ffffff;
+    }
+    .service-body p{
+        font-size: 10px; 
+        width: 100%;
+    }
+    .know-more{
+        font-size: 13px;
+   }
+   .contact-cont{ 
+    margin: 20px 10px;   
+    width: 100%;
+    position: relative;
+    left: 0px;
+}
+}
+
+@media screen and (max-width:685px){
+   .banner{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   }
+   .hero-img-cont,.bannner-content{
+    width: 70%;
+    text-align: center;
+    align-items: center;
+
+   }
+   .services{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   }
+   .service{  
+    width:40%;   
+}
+.status{
+    flex-direction: column;
+}
+.right-status{
+    width: 100%;
+    left: 0px;
+}
+.projects-heading-div{
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-cards{
+    flex-direction: column;
+    left: 0px;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+.contact-cont{
+    flex-direction: column;
+}
+footer{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.social-media{ 
+    right: 0px;
+}
+.logo{ 
+    right: 0px;
+}
 }
